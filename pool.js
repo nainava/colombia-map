@@ -10,8 +10,7 @@ const POOL = [
   "time": "2:17 PM",
   "day": "Friday",
   "sort": "2026-09-11 14:17:07",
-  "caption": "Couple selfie museum facade both smiling",
-  "inDefault": true
+  "caption": "Couple selfie museum facade both smiling"
  },
  {
   "type": "video",
@@ -25,8 +24,7 @@ const POOL = [
   "time": "9:55 AM",
   "day": "Saturday",
   "sort": "2026-09-12 09:55:11",
-  "caption": "A giant monitor lizard prowls the eco-lodge garden",
-  "inDefault": true
+  "caption": "A giant monitor lizard prowls the eco-lodge garden"
  },
  {
   "type": "photo",
@@ -39,8 +37,7 @@ const POOL = [
   "time": "11:59 AM",
   "day": "Saturday",
   "sort": "2026-09-12 11:59:09",
-  "caption": "Riverside tubing selfie both smiling swimwear",
-  "inDefault": true
+  "caption": "Riverside tubing selfie both smiling swimwear"
  },
  {
   "type": "photo",
@@ -53,22 +50,7 @@ const POOL = [
   "time": "11:48 AM",
   "day": "Sunday",
   "sort": "2026-09-13 11:48:37",
-  "caption": "Jungle trail selfie both smiling brightly",
-  "inDefault": true
- },
- {
-  "type": "photo",
-  "file": "photos/PXL_20260913_184742551.jpg",
-  "lat": 11.311814,
-  "lon": -73.938219,
-  "place": "Tayrona — Cabo San Juan",
-  "region": "Tayrona",
-  "date": "Sep 13, 2026",
-  "time": "1:47 PM",
-  "day": "Sunday",
-  "sort": "2026-09-13 13:47:42",
-  "caption": "Woman smiling on cliff above Tayrona beach",
-  "inDefault": true
+  "caption": "Jungle trail selfie both smiling brightly"
  },
  {
   "type": "photo",
@@ -81,8 +63,7 @@ const POOL = [
   "time": "1:51 PM",
   "day": "Sunday",
   "sort": "2026-09-13 13:51:20",
-  "caption": "Couple selfie Tayrona beach mountains behind",
-  "inDefault": true
+  "caption": "Couple selfie Tayrona beach mountains behind"
  },
  {
   "type": "photo",
@@ -95,8 +76,7 @@ const POOL = [
   "time": "2:40 PM",
   "day": "Sunday",
   "sort": "2026-09-13 14:40:30",
-  "caption": "Couple selfie Tayrona beach both smiling",
-  "inDefault": true
+  "caption": "Couple selfie Tayrona beach both smiling"
  },
  {
   "type": "photo",
@@ -109,8 +89,7 @@ const POOL = [
   "time": "2:47 PM",
   "day": "Sunday",
   "sort": "2026-09-13 14:47:01",
-  "caption": "Mountain jungle selfie both smiling sunglasses",
-  "inDefault": true
+  "caption": "Mountain jungle selfie both smiling sunglasses"
  },
  {
   "type": "photo",
@@ -123,22 +102,7 @@ const POOL = [
   "time": "3:13 PM",
   "day": "Sunday",
   "sort": "2026-09-13 15:13:12",
-  "caption": "Man sunglasses grinning ocean waves behind",
-  "inDefault": true
- },
- {
-  "type": "photo",
-  "file": "photos/PXL_20260915_154102567.jpg",
-  "lat": 11.255089,
-  "lon": -73.779017,
-  "place": "Costeño Beach / Buritaca",
-  "region": "Costeño Beach",
-  "date": "Sep 15, 2026",
-  "time": "10:41 AM",
-  "day": "Tuesday",
-  "sort": "2026-09-15 10:41:02",
-  "caption": "Woman by yellow flowers and palm garden",
-  "inDefault": true
+  "caption": "Man sunglasses grinning ocean waves behind"
  },
  {
   "type": "photo",
@@ -151,8 +115,7 @@ const POOL = [
   "time": "8:27 PM",
   "day": "Tuesday",
   "sort": "2026-09-15 20:27:23",
-  "caption": "Dressed-up mirror selfie both smiling evening",
-  "inDefault": true
+  "caption": "Dressed-up mirror selfie both smiling evening"
  },
  {
   "type": "photo",
@@ -165,8 +128,7 @@ const POOL = [
   "time": "9:31 AM",
   "day": "Wednesday",
   "sort": "2026-09-16 09:31:47",
-  "caption": "Colorful flag-draped Cartagena street murals",
-  "inDefault": true
+  "caption": "Colorful flag-draped Cartagena street murals"
  },
  {
   "type": "photo",
@@ -179,8 +141,7 @@ const POOL = [
   "time": "9:53 AM",
   "day": "Wednesday",
   "sort": "2026-09-16 09:53:44",
-  "caption": "Couple selfie atop fort wall over Cartagena",
-  "inDefault": true
+  "caption": "Couple selfie atop fort wall over Cartagena"
  },
  {
   "type": "photo",
@@ -193,8 +154,7 @@ const POOL = [
   "time": "10:04 AM",
   "day": "Wednesday",
   "sort": "2026-09-16 10:04:23",
-  "caption": "Woman inside old stone fortress walls",
-  "inDefault": true
+  "caption": "Woman inside old stone fortress walls"
  },
  {
   "type": "video",
@@ -208,8 +168,7 @@ const POOL = [
   "time": "10:54 AM",
   "day": "Wednesday",
   "sort": "2026-09-16 10:54:33",
-  "caption": "Inside Cartagena's old stone cathedral",
-  "inDefault": true
+  "caption": "Inside Cartagena's old stone cathedral"
  },
  {
   "type": "photo",
@@ -222,8 +181,7 @@ const POOL = [
   "time": "5:23 PM",
   "day": "Wednesday",
   "sort": "2026-09-16 17:23:54",
-  "caption": "Boat selfie Cartagena skyline sunset both smiling",
-  "inDefault": true
+  "caption": "Boat selfie Cartagena skyline sunset both smiling"
  },
  {
   "type": "video",
@@ -237,22 +195,7 @@ const POOL = [
   "time": "5:29 PM",
   "day": "Wednesday",
   "sort": "2026-09-16 17:29:18",
-  "caption": "Golden-hour boat ride past the Cartagena skyline",
-  "inDefault": true
- },
- {
-  "type": "photo",
-  "file": "photos/PXL_20260916_230310001.jpg",
-  "lat": 10.390169,
-  "lon": -75.54435,
-  "place": "Cartagena — Bocagrande",
-  "region": "Cartagena",
-  "date": "Sep 16, 2026",
-  "time": "6:03 PM",
-  "day": "Wednesday",
-  "sort": "2026-09-16 18:03:10",
-  "caption": "Couple laughing on boat very joyful",
-  "inDefault": true
+  "caption": "Golden-hour boat ride past the Cartagena skyline"
  },
  {
   "type": "photo",
@@ -265,8 +208,7 @@ const POOL = [
   "time": "10:47 AM",
   "day": "Friday",
   "sort": "2026-09-18 10:47:07",
-  "caption": "Botero plaza selfie sunglasses both smiling",
-  "inDefault": true
+  "caption": "Botero plaza selfie sunglasses both smiling"
  },
  {
   "type": "video",
@@ -280,8 +222,7 @@ const POOL = [
   "time": "10:54 AM",
   "day": "Friday",
   "sort": "2026-09-18 10:54:43",
-  "caption": "Wandering a leafy plaza in downtown Medellín",
-  "inDefault": true
+  "caption": "Wandering a leafy plaza in downtown Medellín"
  },
  {
   "type": "photo",
@@ -294,22 +235,7 @@ const POOL = [
   "time": "1:22 PM",
   "day": "Friday",
   "sort": "2026-09-18 13:22:27",
-  "caption": "Comuna 13 hillside overlook both posing smiling",
-  "inDefault": true
- },
- {
-  "type": "photo",
-  "file": "photos/PXL_20260918_202323673.jpg",
-  "lat": 6.247975,
-  "lon": -75.622083,
-  "place": "Medellín — Comuna 13",
-  "region": "Medellín",
-  "date": "Sep 18, 2026",
-  "time": "3:23 PM",
-  "day": "Friday",
-  "sort": "2026-09-18 15:23:23",
-  "caption": "Couple selfie rooftop Medellín hills",
-  "inDefault": true
+  "caption": "Comuna 13 hillside overlook both posing smiling"
  },
  {
   "type": "photo",
@@ -322,8 +248,7 @@ const POOL = [
   "time": "3:33 PM",
   "day": "Friday",
   "sort": "2026-09-18 15:33:40",
-  "caption": "Couple seated colorful Comuna 13 mural",
-  "inDefault": true
+  "caption": "Couple seated colorful Comuna 13 mural"
  },
  {
   "type": "photo",
@@ -336,8 +261,7 @@ const POOL = [
   "time": "7:22 PM",
   "day": "Friday",
   "sort": "2026-09-18 19:22:15",
-  "caption": "Couple night selfie rooftop city lights",
-  "inDefault": true
+  "caption": "Couple night selfie rooftop city lights"
  },
  {
   "type": "photo",
@@ -350,8 +274,7 @@ const POOL = [
   "time": "8:03 PM",
   "day": "Friday",
   "sort": "2026-09-18 20:03:20",
-  "caption": "Woman at restaurant table warm lighting",
-  "inDefault": true
+  "caption": "Woman at restaurant table warm lighting"
  },
  {
   "type": "video",
@@ -365,8 +288,7 @@ const POOL = [
   "time": "1:42 PM",
   "day": "Saturday",
   "sort": "2026-09-19 13:42:19",
-  "caption": "Guatapé's white-and-red church on the town square",
-  "inDefault": true
+  "caption": "Guatapé's white-and-red church on the town square"
  },
  {
   "type": "photo",
@@ -379,8 +301,7 @@ const POOL = [
   "time": "3:04 PM",
   "day": "Saturday",
   "sort": "2026-09-19 15:04:34",
-  "caption": "Couple selfie atop El Peñol Guatapé lakes",
-  "inDefault": true
+  "caption": "Couple selfie atop El Peñol Guatapé lakes"
  },
  {
   "type": "photo",
@@ -393,8 +314,7 @@ const POOL = [
   "time": "4:34 PM",
   "day": "Saturday",
   "sort": "2026-09-19 16:34:02",
-  "caption": "Guatapé lake overlook selfie both smiling",
-  "inDefault": true
+  "caption": "Guatapé lake overlook selfie both smiling"
  },
  {
   "type": "video",
@@ -408,8 +328,7 @@ const POOL = [
   "time": "4:34 PM",
   "day": "Saturday",
   "sort": "2026-09-19 16:34:09",
-  "caption": "The island-dotted lake seen from the top of El Peñol",
-  "inDefault": true
+  "caption": "The island-dotted lake seen from the top of El Peñol"
  },
  {
   "type": "photo",
@@ -422,8 +341,7 @@ const POOL = [
   "time": "4:38 PM",
   "day": "Saturday",
   "sort": "2026-09-19 16:38:17",
-  "caption": "Couple selfie atop Guatapé dam mountains",
-  "inDefault": true
+  "caption": "Couple selfie atop Guatapé dam mountains"
  },
  {
   "type": "photo",
@@ -436,8 +354,7 @@ const POOL = [
   "time": "4:45 PM",
   "day": "Saturday",
   "sort": "2026-09-19 16:45:09",
-  "caption": "Woman portrait smiling Guatapé lake bokeh",
-  "inDefault": true
+  "caption": "Woman portrait smiling Guatapé lake bokeh"
  },
  {
   "type": "photo",
@@ -450,8 +367,7 @@ const POOL = [
   "time": "4:49 PM",
   "day": "Saturday",
   "sort": "2026-09-19 16:49:24",
-  "caption": "Guatapé islands lakes overlook palm frond",
-  "inDefault": true
+  "caption": "Guatapé islands lakes overlook palm frond"
  },
  {
   "type": "photo",
@@ -464,8 +380,7 @@ const POOL = [
   "time": "5:00 PM",
   "day": "Saturday",
   "sort": "2026-09-19 17:00:18",
-  "caption": "El Peñol rock winding staircase tourists",
-  "inDefault": true
+  "caption": "El Peñol rock winding staircase tourists"
  },
  {
   "type": "photo",
@@ -478,8 +393,7 @@ const POOL = [
   "time": "5:39 PM",
   "day": "Saturday",
   "sort": "2026-09-19 17:39:12",
-  "caption": "Couple selfie Guatapé overlook sunset lake",
-  "inDefault": true
+  "caption": "Couple selfie Guatapé overlook sunset lake"
  },
  {
   "type": "photo",
@@ -492,7 +406,123 @@ const POOL = [
   "time": "6:09 AM",
   "day": "Sunday",
   "sort": "2026-09-20 06:09:34",
-  "caption": "Medellín skyline at dawn from balcony",
-  "inDefault": true
+  "caption": "Medellín skyline at dawn from balcony"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260913_183644264.jpg",
+  "lat": 11.309394,
+  "lon": -73.936706,
+  "place": "Tayrona — Cabo San Juan",
+  "region": "Tayrona",
+  "date": "Sep 13, 2026",
+  "time": "1:36 PM",
+  "day": "Sunday",
+  "sort": "2026-09-13 13:36:44",
+  "caption": "Jungle trail hike selfie both smiling"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260914_144556517.jpg",
+  "lat": 11.255681,
+  "lon": -73.779422,
+  "place": "Costeño Beach / Buritaca",
+  "region": "Costeño Beach",
+  "date": "Sep 14, 2026",
+  "time": "9:45 AM",
+  "day": "Monday",
+  "sort": "2026-09-14 09:45:56",
+  "caption": "Couple selfie thatched beach restaurant smiling"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260916_132921190.jpg",
+  "lat": 10.424006,
+  "lon": -75.550289,
+  "place": "Cartagena — Old City",
+  "region": "Cartagena",
+  "date": "Sep 16, 2026",
+  "time": "8:29 AM",
+  "day": "Wednesday",
+  "sort": "2026-09-16 08:29:21",
+  "caption": "Lush colonial courtyard tiled roof plants"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260916_143208262.MP.jpg",
+  "lat": 10.421419,
+  "lon": -75.544389,
+  "place": "Cartagena — Old City",
+  "region": "Cartagena",
+  "date": "Sep 16, 2026",
+  "time": "9:32 AM",
+  "day": "Wednesday",
+  "sort": "2026-09-16 09:32:08",
+  "caption": "Colorful Cartagena colonial street flowers"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260916_150950842.jpg",
+  "lat": 10.425814,
+  "lon": -75.539894,
+  "place": "Cartagena — Old City",
+  "region": "Cartagena",
+  "date": "Sep 16, 2026",
+  "time": "10:09 AM",
+  "day": "Wednesday",
+  "sort": "2026-09-16 10:09:50",
+  "caption": "Man sitting old fort wall Cartagena skyline"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260916_222357877.jpg",
+  "lat": 10.393708,
+  "lon": -75.544786,
+  "place": "Cartagena — Bocagrande",
+  "region": "Cartagena",
+  "date": "Sep 16, 2026",
+  "time": "5:23 PM",
+  "day": "Wednesday",
+  "sort": "2026-09-16 17:23:57",
+  "caption": "Boat selfie Cartagena skyline sunset"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260919_214641702.MP.jpg",
+  "lat": 6.219808,
+  "lon": -75.179364,
+  "place": "Guatapé",
+  "region": "Guatapé",
+  "date": "Sep 19, 2026",
+  "time": "4:46 PM",
+  "day": "Saturday",
+  "sort": "2026-09-19 16:46:41",
+  "caption": "Man smiling above Guatapé lake panorama"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260919_215120629.jpg",
+  "lat": 6.221639,
+  "lon": -75.179078,
+  "place": "Guatapé",
+  "region": "Guatapé",
+  "date": "Sep 19, 2026",
+  "time": "4:51 PM",
+  "day": "Saturday",
+  "sort": "2026-09-19 16:51:20",
+  "caption": "Guatapé lake islands framed by stone arch"
+ },
+ {
+  "type": "photo",
+  "file": "photos/PXL_20260916_145404967.jpg",
+  "lat": 10.422994,
+  "lon": -75.539042,
+  "place": "Cartagena — Old City",
+  "region": "Cartagena",
+  "date": "Sep 16, 2026",
+  "time": "9:54 AM",
+  "day": "Wednesday",
+  "sort": "2026-09-16 09:54:04",
+  "caption": "Couple selfie Cartagena fort with skyline"
  }
 ];
