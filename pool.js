@@ -524,5 +524,19 @@ const POOL = [
   "day": "Wednesday",
   "sort": "2026-09-16 09:54:04",
   "caption": "Couple selfie Cartagena fort with skyline"
+ },
+ {
+  "type": "video",
+  "file": "videos/PXL_20260916_190653318.mp4",
+  "poster": "videos/PXL_20260916_190653318.jpg",
+  "lat": 10.4193,
+  "lon": -75.5259,
+  "place": "Cartagena — La Popa",
+  "region": "Cartagena",
+  "date": "Sep 16, 2026",
+  "time": "2:06 PM",
+  "day": "Wednesday",
+  "sort": "2026-09-16 14:06:53",
+  "caption": "Up at the convent on La Popa hill, high above Cartagena"
  }
 ];

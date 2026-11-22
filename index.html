@@ -38,10 +38,17 @@
     background:var(--sea); color:#fff; padding:2px 7px; border-radius:10px; margin-left:6px; vertical-align:middle;}
   .counter{ float:right; font-size:12px; color:#9aa7ac; font-family:Arial,sans-serif; letter-spacing:1px;}
 
+  #close{ position:absolute; top:8px; right:8px; z-index:2; width:34px; height:34px; border-radius:50%; border:none; cursor:pointer;
+    background:rgba(0,0,0,.6); color:#fff; font-size:20px; line-height:34px; padding:0; box-shadow:0 2px 8px rgba(0,0,0,.4); }
+  #close:hover{ background:rgba(0,0,0,.85); }
+  .hint{ margin:8px 0 0; font-family:Arial,sans-serif; font-size:11.5px; color:#7d8b90; text-align:center; }
+  .hint kbd{ display:inline-block; min-width:20px; padding:1px 5px; border:1px solid #c9cfd1; border-bottom-width:2px; border-radius:4px; background:#fff; font-size:11px; color:var(--ink); }
+  #reopen{ position:absolute; z-index:1000; bottom:24px; left:50%; transform:translateX(-50%); display:none;
+    background:var(--coral); color:#fff; border:none; border-radius:24px; padding:11px 20px; font-family:Arial,sans-serif; font-size:14px; font-weight:bold; cursor:pointer; box-shadow:0 6px 18px rgba(0,0,0,.3); }
   .nav{ position:absolute; z-index:1000; bottom:44px; }
-  #prev{ left:max(10px, calc(50% - min(215px,47vw) - 56px)); }
-  #next{ right:max(10px, calc(50% - min(215px,47vw) - 56px)); }
-  .nav button{ width:50px; height:50px; border-radius:50%; border:none; cursor:pointer; background:var(--coral); color:#fff;
+  #prev{ left:max(10px, calc(50% - min(215px,47vw) - 110px)); }
+  #next{ right:max(10px, calc(50% - min(215px,47vw) - 110px)); }
+  .nav button{ width:auto; min-width:50px; height:50px; padding:0 16px; gap:4px; border-radius:25px; font-family:Arial,sans-serif; font-weight:bold; border:none; cursor:pointer; background:var(--coral); color:#fff;
     font-size:22px; box-shadow:0 6px 18px rgba(0,0,0,.3); display:flex; align-items:center; justify-content:center; transition:transform .1s, background .2s; }
   .nav button:hover{ background:#d35c3f; transform:scale(1.08); }
   .nav button:active{ transform:scale(.94); }
@@ -65,7 +72,8 @@
     font-size:15px; font-weight:bold; letter-spacing:2px; cursor:pointer; font-family:Arial; box-shadow:0 8px 22px rgba(0,0,0,.3);}
   #intro button:hover{ background:#f2d689; }
   #intro.gone{ opacity:0; pointer-events:none; }
-  @media(max-width:520px){ .nav{bottom:auto; top:calc(50% - 25px);} }
+  @media(max-width:520px){ .nav{bottom:auto; top:calc(50% - 25px);} .nav button .lbl{display:none;} .nav button{padding:0;} }
+  body.closed .nav{ display:none; }
 </style>
 </head>
 <body>
@@ -74,6 +82,7 @@
 <div id="rail"></div>
 
 <div id="card" class="hidden">
+  <button id="close" aria-label="Close picture" title="Close and explore the map">×</button>
   <div class="media">
     <img id="photo" alt="">
     <video id="video" controls playsinline preload="metadata"></video>
@@ -83,11 +92,14 @@
     <p class="place" id="place"></p>
     <p class="cap" id="cap"></p>
     <p class="when" id="when"></p>
+    <p class="hint">Use the <b>‹ Back</b> / <b>Next ›</b> buttons or the <kbd>←</kbd> <kbd>→</kbd> arrow keys to change pictures</p>
   </div>
 </div>
 
-<div class="nav"><button id="prev" aria-label="Previous">‹</button></div>
-<div class="nav"><button id="next" aria-label="Next">›</button></div>
+<div class="nav"><button id="prev" aria-label="Previous picture">‹ <span class="lbl">Back</span></button></div>
+<div class="nav"><button id="next" aria-label="Next picture"><span class="lbl">Next</span> ›</button></div>
+
+<button id="reopen">▶ Continue the slideshow</button>
 
 <div id="intro">
   <h1>Colombia</h1>
@@ -154,10 +166,17 @@ function fill(p){
   document.getElementById('when').textContent=`${p.day} · ${p.date} · ${p.time}`;
   document.getElementById('counter').textContent=`${cur+1} / ${PHOTOS.length}`;
   card.classList.remove('hidden');
+  document.body.classList.remove('closed'); document.getElementById('reopen').style.display='none';
 }
+function closeCard(){
+  video.pause(); card.classList.add('hidden'); document.body.classList.add('closed');
+  document.getElementById('reopen').style.display='block';
+}
+document.getElementById('close').onclick=closeCard;
+document.getElementById('reopen').onclick=()=>go(cur);
 document.getElementById('next').onclick=()=>go(cur+1);
 document.getElementById('prev').onclick=()=>go(cur-1);
-document.addEventListener('keydown',e=>{ if(e.key==='ArrowRight')go(cur+1); if(e.key==='ArrowLeft')go(cur-1); });
+document.addEventListener('keydown',e=>{ if(e.key==='ArrowRight')go(cur+1); if(e.key==='ArrowLeft')go(cur-1); if(e.key==='Escape')closeCard(); });
 
 const d0=PHOTOS[0].date, d1=PHOTOS[PHOTOS.length-1].date;
 document.getElementById('introdates').textContent=d0+'  —  '+d1;
